@@ -1,9 +1,3 @@
-# .zshrc
-#
-# Maintained by Claud D. Park <posquit0.bj@gmail.com>
-# http://www.posquit0.com/
-
-
 # Set the path of zsh configuration directory
 export ZSH_HOME=$HOME/.zsh
 
@@ -11,8 +5,7 @@ export ZSH_HOME=$HOME/.zsh
 [ -f $ZSH_HOME/oh-my-zsh.zshrc ] && source $ZSH_HOME/oh-my-zsh.zshrc
 
 # Load a general configuration of zsh
-[ -f $ZSH_HOME/general.zshrc ] && source $ZSH_HOME/general.zshrc
-
+#[ -f $ZSH_HOME/general.zshrc ] && source $ZSH_HOME/general.zshrc
 
 ### User Configuration {{{
   # Ruby
@@ -63,3 +56,5 @@ source /Users/kevinko/.config/broot/launcher/bash/br
 # ease list
 alias ll="ls -lah"
 alias al="ls -al"
+alias python=python3
+eval "$(perl -I$HOME/perl5/lib/perl5 -Mlocal::lib=$HOME/perl5)"

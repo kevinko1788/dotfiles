@@ -4,4 +4,4 @@
 # http://www.posquit0.com/
 
 
-DEBIAN_PREVENT_KEYBOARD_CHANGES=yes
+#DEBIAN_PREVENT_KEYBOARD_CHANGES=yes

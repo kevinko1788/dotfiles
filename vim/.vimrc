@@ -203,3 +203,21 @@ let $LOCALFILE=expand("~/.vimrc_local")
 if filereadable($LOCALFILE)
     source $LOCALFILE
 endif
+"Vundle 
+filetype off
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+Plugin 'VundleVim/Vundle.vim'
+
+" Add plugins here
+Plugin 'ycm-core/YouCompleteMe'
+
+call vundle#end()
+filetype plugin indent on
+
+"persist history
+" tell it to use an undo file
+set undofile
+" set a directory to store the undo history
+set undodir=~/.vim/vimundo
+
