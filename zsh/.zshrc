@@ -57,4 +57,4 @@ export ZSH_HOME=$HOME/.zsh
 alias ll="ls -lah"
 alias al="ls -al"
 alias python=python3
-eval "$(perl -I$HOME/perl5/lib/perl5 -Mlocal::lib=$HOME/perl5)"
+#eval "$(perl -I$HOME/perl5/lib/perl5 -Mlocal::lib=$HOME/perl5)"
