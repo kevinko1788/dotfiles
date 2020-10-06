@@ -51,8 +51,8 @@ export ZSH_HOME=$HOME/.zsh
 # Load a custom configuration of zsh
 # [ -f $HOME/.zshrc.custom ] && source $HOME/.zshrc.custom
 # My setting
-alias server="ssh -i ~/Server.pem ubuntu@54.219.128.153"
-source /Users/kevinko/.config/broot/launcher/bash/br
+#alias server="ssh -i ~/Server.pem ubuntu@54.219.128.153"
+#source /Users/kevinko/.config/broot/launcher/bash/br
 # ease list
 alias ll="ls -lah"
 alias al="ls -al"
