@@ -2,9 +2,9 @@
 #source getdep.sh
 if [[ "$OSTYPE" == "linux-gnu"* ]]; then
     echo "OS = Linux"
-    sudo apt-get install git
+    sudo apt-get install git python3-pip htop
     git config --global core.editor "vim"
-    sudo apt-get install python3-pip
+
 elif [[ "$OSTYPE" == "darwin"* ]]; then
     echo "OS = MacOS"
     #install Brew
