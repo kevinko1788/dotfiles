@@ -2,7 +2,7 @@
 #source getdep.sh
 if [[ "$OSTYPE" == "linux-gnu"* ]]; then
     echo "OS = Linux"
-    sudo apt-get install git python3-pip htop
+    sudo apt-get install git python3-pip htop cmake
     git config --global core.editor "vim"
 
 elif [[ "$OSTYPE" == "darwin"* ]]; then

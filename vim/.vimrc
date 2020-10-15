@@ -220,4 +220,10 @@ filetype plugin indent on
 set undofile
 " set a directory to store the undo history
 set undodir=~/.vim/vimundo
+set encoding=utf-8
 
+" For local replace
+nnoremap gr gd[{V%::s/<C-R>///gc<left><left><left>
+
+" For global replace
+nnoremap gR gD:%s/<C-R>///gc<left><left><left>
