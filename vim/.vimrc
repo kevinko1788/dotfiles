@@ -212,6 +212,7 @@ Plugin 'VundleVim/Vundle.vim'
 " Add plugins here
 Plugin 'ycm-core/YouCompleteMe'
 
+Plugin 'kchmck/vim-coffee-script'
 call vundle#end()
 filetype plugin indent on
 
