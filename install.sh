@@ -2,7 +2,7 @@
 #source getdep.sh
 if [[ "$OSTYPE" == "linux-gnu"* ]]; then
     echo "OS = Linux"
-    sudo apt-get install git python3-pip htop cmake zsh net-tools
+    sudo apt-get install git python3-pip htop cmake zsh net-tools tmux
     git config --global core.editor "vim"
     #install ohmyzsh
     sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
