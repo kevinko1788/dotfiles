@@ -1,8 +1,8 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
-
+export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt
 # Path to your oh-my-zsh installation.
-export ZSH="/home/firesoldier/.oh-my-zsh"
+#export ZSH="/home/firesoldier/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -10,7 +10,7 @@ export ZSH="/home/firesoldier/.oh-my-zsh"
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 #ZSH_THEME="robbyrussell"
 # When don't need user and machine information
-ZSH_THEME="frontcube"
+#ZSH_THEME="frontcube"
 # When need user and machine information 
 #ZSH_THEME="itchy"
 
@@ -75,7 +75,7 @@ ZSH_THEME="frontcube"
 plugins=(git)
 plugins=(zsh-autosuggestions)
 
-source $ZSH/oh-my-zsh.sh
+#source $ZSH/oh-my-zsh.sh
 
 # User configuration
 

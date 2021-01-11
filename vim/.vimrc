@@ -204,16 +204,16 @@ if filereadable($LOCALFILE)
     source $LOCALFILE
 endif
 "Vundle 
-filetype off
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-Plugin 'VundleVim/Vundle.vim'
-
+"filetype off
+"set rtp+=~/.vim/bundle/Vundle.vim
+"call vundle#begin()
+"Plugin 'VundleVim/Vundle.vim'
+"
 " Add plugins here
-Plugin 'ycm-core/YouCompleteMe'
-
-Plugin 'kchmck/vim-coffee-script'
-call vundle#end()
+"Plugin 'ycm-core/YouCompleteMe'
+"
+"Plugin 'kchmck/vim-coffee-script'
+"call vundle#end()
 filetype plugin indent on
 
 "persist history

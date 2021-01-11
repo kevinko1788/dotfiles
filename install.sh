@@ -11,7 +11,10 @@ elif [[ "$OSTYPE" == "darwin"* ]]; then
     echo "OS = MacOS"
     #install Brew
     echo "Brew installing"
-    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+    # for intel chip
+    #/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+    # for M1 chip
+    arch x84_64 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
     echo "Brew install finished"
 fi
 echo "Linking dotfiles"
